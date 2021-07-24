@@ -1,6 +1,9 @@
 package com.example.jersey.demo;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Chris
@@ -8,6 +11,9 @@ import lombok.Data;
  * @date 2021/7/24
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class User {
 
     private static final long serialVersionUID = 1L;
